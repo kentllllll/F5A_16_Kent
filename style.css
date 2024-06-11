@@ -1,0 +1,423 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  font-size: 15px;
+  font-family: century gothic;
+}
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+ul,
+li,
+a,
+span {
+  margin: 0px;
+  padding: 0px;
+}
+.clear {
+  clear: both;
+}
+#conteneur-id {
+  width: 100%;
+}
+/*MENU*/
+#conteneur-menu {
+}
+.menu {
+  width: 100%;
+  background-color: white;
+  box-shadow: 2px 2px 12px 2px rgba(0, 0, 0, 0.2);
+  margin: auto;
+  text-align: center;
+  position: fixed;
+  z-index: 999;
+}
+.menu ul {
+  width: 100%;
+  margin: auto;
+  padding: 15px 0px;
+}
+.menu li {
+  display: inline-block;
+  padding: 5px;
+}
+.menu a {
+  text-decoration: none;
+  color: black;
+  background-color: #ddd;
+  transition: 0.4s;
+  padding: 5px 25px;
+}
+.menu a:hover {
+  text-decoration: none;
+  color: #999;
+  background-color: #fff;
+  transition: 0.4s;
+}
+/*HOME*/
+#conteneur-home {
+  width: 100%;
+  background: url(https://media.istockphoto.com/id/1169630303/photo/blue-textured-background.webp?b=1&s=170667a&w=0&k=20&c=tI2xFhXqXFqMM0IvxSYY3F7LIwv450h2ch3yD-lZ9HU=)
+    fixed 100% no-repeat;
+  background-size: cover;
+  padding: 159.5px 0px 100px 0px;
+  text-align: center;
+}
+.home {
+  width: 100%;
+}
+.home h1 {
+  font-weight: 100;
+  font-size: 50px;
+  color: #eee;
+  padding: 0px 0px 5px 0px;
+}
+.home p {
+  font-weight: 100;
+  font-size: 20px;
+  color: white;
+}
+/*ABOUT*/
+#conteneur-about {
+  padding: 100px 0px;
+}
+.about {
+  max-width: 960px;
+  width: 100%;
+  margin: auto;
+}
+.profil-photo {
+  width: 50%;
+  float: left;
+}
+.profil-photo img {
+  width: 90%;
+}
+.profil-text {
+  width: 50%;
+  float: left;
+  position: relative;
+}
+.profil-text h2 {
+  padding-bottom: 15px;
+  font-size: 25px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.profil-text p {
+  padding-bottom: 75px;
+  text-align: justify;
+}
+.profil-text a {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  text-decoration: none;
+  color: black;
+  background-color: #ddd;
+  transition: 0.4s;
+  padding: 5px 25px;
+  border: 1px solid white;
+}
+.profil-text a:hover {
+  text-decoration: none;
+  color: #999;
+  border: 1px solid #999;
+  background-color: #fff;
+  transition: 0.4s;
+}
+/*SKILLS*/
+#conteneur-skills {
+  padding: 100px 0px;
+  background-color: #eee;
+}
+.skills {
+  max-width: 960px;
+  width: 100%;
+  margin: auto;
+}
+.title h2 {
+  padding-bottom: 25px;
+  font-size: 25px;
+  font-weight: 100;
+  text-align: center;
+  text-transform: uppercase;
+}
+.title p {
+  padding-bottom: 75px;
+  text-align: justify;
+  width: 100%;
+  margin: auto;
+}
+.bardiv {
+  width: 100%;
+  margin: auto;
+}
+.bardiv h3 {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+.progressbar {
+  width: 100%;
+  margin: auto;
+  height: 5px;
+  background-color: #aaa;
+  position: relative;
+  margin-bottom: 15px;
+}
+.progressbar span {
+  height: 5px;
+  background-color: #000;
+  z-index: 888;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.html {
+  width: 100%;
+}
+.css {
+  width: 100%;
+}
+.javascript {
+  width: 100%;
+}
+.php {
+  width: 100%;
+}
+.sql {
+  width: 100%;
+}
+/*DIPLOMA*/
+#conteneur-qualification {
+  padding: 100px 0px;
+}
+.qualification {
+  max-width: 960px;
+  background: url(https://10wallpaper.com/wallpaper/1366x768/2105/Purple_Sky_Sunset_Ocean_2021_Nature_5K_Photo_1366x768.jpg)
+    fixed 100% no-repeat;
+  background-size: cover;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.qualification h2 {
+  padding-bottom: 50px;
+  font-size: 50px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.lastqualification {
+  padding-left: 25px;
+  padding-bottom: 25px;
+}
+.lastqualification h3 {
+  font-size: 25px;
+  padding-bottom: 5px;
+  font-weight: 100;
+}
+.lastqualification h4 {
+  font-size: 25px;
+  padding-bottom: 5px;
+  font-weight: 100;
+  color: #999;
+}
+.othqualification {
+  padding-left: 25px;
+  padding-bottom: 25px;
+}
+.othqualification h3 {
+  font-size: 25px;
+  padding-bottom: 5px;
+  font-weight: 100;
+}
+.othqualification h4 {
+  font-size: 25px;
+  padding-bottom: 5px;
+  font-weight: 100;
+  color: black;
+}
+/*PORTFOLIO*/
+#conteneur-portfolio {
+  padding: 100px 10px;
+  background-color: #eee;
+}
+.portfolio {
+  max-width: 960px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.portfolio h2 {
+  padding-bottom: 50px;
+  font-size: 25px;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+.conteneur-portfolio h2 {
+  padding-bottom: 100px;
+  font-size: 80px;
+  color: #000;
+  text-align: center;
+}
+.conteneur-miniature-left {
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.25);
+  transition: 0.4s;
+  width: 47.5%;
+  margin-right: 2.5%;
+  float: left;
+}
+.conteneur-miniature-right {
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.25);
+  transition: 0.4s;
+  width: 47.5%;
+  margin-left: 2.5%;
+  float: left;
+}
+.miniature-portfolio {
+  width: 100%;
+  height: 300px;
+}
+.oneport {
+  background: url(https://i.imgur.com/YNgD5mT.jpeg);
+  background-size: 400px;
+  width: 456px
+  
+}
+.twoport {
+  background: url(https://www.ootlah.com/wp-content/uploads/2021/06/the-ultimate-portrait-drawing-course-beginner-to-advanced-illustration-dub-1ca-class-access-only-225605_1024x.jpg);
+  background-size: cover;
+}
+.threeport {
+  background: url(https://www.racquetpoint.com/cdn/shop/articles/what-is-badminton-racquet-point.jpg?v=1654120169);
+  background-size: cover;
+}
+.fourport {
+  background: url(https://i.imgur.com/Ajm8iky.jpeg);
+  background-size: cover;
+}
+.text-miniature {
+  padding: 15px 30px 15px 15px;
+}
+.text-miniature h3 {
+  font-size: 25px;
+  padding-bottom: 10px;
+  font-weight: 100;
+}
+.text-miniature h4 {
+  font-size: 18px;
+  color: #666;
+  line-height: 25px;
+  font-weight: 100;
+}
+.text-miniature h5 {
+  font-size: 15px;
+  color: #999;
+  line-height: 20px;
+  font-weight: 100;
+}
+.conteneur-miniature-one:hover {
+  box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.75);
+  transition: 0.4s;
+}
+/*CONTACT*/
+#conteneur-contact {
+  padding: 100px 0px;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/3/3e/Clear_sky.JPG)
+    fixed 100% no-repeat;
+  background-size: cover;
+}
+.contact {
+  max-width: 660px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.contact h2 {
+  padding-bottom: 50px;
+  font-size: 40px;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #fff;
+}
+.input h3 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 100;
+  text-align: left;
+}
+.input textarea {
+  margin-bottom: 15px;
+}
+input[type="email"],
+input[type="text"],
+textarea {
+  height: 25px;
+  width: 100%;
+  padding: 2.5px 8px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: none;
+  border-bottom: 1px solid #e3e3e3;
+  box-shadow: none;
+  box-sizing: border-box;
+  border-radius: 0;
+  outline: none;
+  color: #fff;
+}
+textarea {
+  min-height: 150px;
+  max-height: 150px;
+  max-width: 100%;
+  max-width: 100%;
+}
+input[type="submit"] {
+  font-size: 17px;
+  width: 100%;
+  display: inline-block;
+  height: 50px;
+  padding: 0 30px;
+  text-align: center;
+  font-weight: 100;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 20px;
+  border: 20;
+  cursor: pointer;
+  box-sizing: border-box;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: 0.4s;
+}
+input[type="submit"]:hover {
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  transition: 0.4s;
+}
+#conteneur-footer {
+  padding: 10px 0px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  padding-top: 50px;
+  transition: 0.4s;
+}
+.footer a:hover {
+  color: #ddd;
+  text-decoration: none;
+  transition: 0.4s;
+}
